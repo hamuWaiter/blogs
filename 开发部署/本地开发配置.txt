@@ -1,0 +1,7 @@
+@琴石鸣乐 @禁锢  本地开发时候使用的数据库可以变更一下，从本地的变更成线上的数据库，我用线上的数据创建了一个xxx_dev数据库。 把.env.development 里的 
+DATABASE_URL="postgres://postgres:password@10.0.0.142:5432/oralsharp?schema=oralsharp" 修改成 
+DATABASE_URL="postgres://zjac:58kyic8d66FaZbL@pgm-uf689dore6kxhu36bo.pg.rds.aliyuncs.com:5432/oralsharp?schema=oralsharp_dev"
+
+
+DATABASE_URL="postgres://postgres:password@10.0.0.142:5432/zkac?schema=zkac" 修改成 
+DATABASE_URL="postgres://zjac:58kyic8d66FaZbL@pgm-uf689dore6kxhu36bo.pg.rds.aliyuncs.com:5432/zkac?schema=zkac_dev"

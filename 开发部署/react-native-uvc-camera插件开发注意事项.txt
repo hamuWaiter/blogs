@@ -1,0 +1,6 @@
+1、此插件基UVCAndroid库，通过kotlin协程调用UVCAndroid库的方法实现对usb摄像头的调用，在二次开发时，对照UVCAndroid/demo/java/com.herohan.uvcdemo目录下的代码修改kotlin代码即可。
+2、二次开发react-native-uvc-camera步骤：
+（不要开梯子！！！！！）
+
+	1. 根目录下执行package.json文件中的bootstrap拉取依赖到本地
+	2.终端打开example目录，执行example目录下package.json文件内部的start命令打包apk到手机再实时调试。

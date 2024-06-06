@@ -1,0 +1,8 @@
+1、 adb tcpip 5555 
+2、手机电脑连接到同一wifi
+3、adb connect 10.0.0.12（手机wifi详情页查看）/10.0.0.14 ....
+4、npm start -> npm run android打包安装开发应用
+
+注：
+断开连接：adb disconnect
+查看所有设备：adb devices

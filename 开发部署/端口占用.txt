@@ -1,0 +1,7 @@
+一：查找端口对应进程号
+
+	netstat -aon|findstr "8081"
+
+二：结束端口
+
+	taskkill /T /F /PID 19232 
