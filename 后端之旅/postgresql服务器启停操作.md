@@ -6,22 +6,28 @@
 cd "D:\software\PostgreSQL\bin"
 ```
 
-2、启动postgreSQL服务器
+2、启动postgreSQL服务器(有脚本可以直接启动)
 
 ```
 pg_ctl.exe start -D "D:\software\PostgreSQL\data"
-```
 
 ```
-// 查看服务启动状态
+
+2.1 查看服务启动状态
+
+```
 pg_ctl.exe status -D "D:\software\PostgreSQL\data"
-
-// 结果如下表示启动成功：
-pg_ctl: 正在运行服务器进程(PID: 12508)
-C:/Program Files/PostgreSQL/11/bin/postgres.exe "-D" "C:/Program Files/PostgreSQL/11/data"
 ```
 
-3、停止postgreSQL服务器
+
+
+```
+// 结果如下表示启动成功：
+pg_ctl: 正在运行服务器进程(PID: 28308)
+D:/software/PostgreSQL/bin/postgres.exe "-D" "D:/software/PostgreSQL/data"
+```
+
+3、停止postgreSQL服务器(有脚本可以直接启动)
 
 ```
 pg_ctl.exe stop -D "D:\software\PostgreSQL\data"
